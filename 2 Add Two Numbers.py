@@ -15,7 +15,7 @@ class ListNode(object):
     def myPrint(self):
         print(self.val)
         if self.next:
-            self.next.a()
+            self.next.myPrint()
 
 
 class Solution(object):
@@ -33,6 +33,7 @@ class Solution(object):
                 cur.val -= 10
                 cur.next = ListNode(1)
             else:
+                # Check if there is need to make the next node
                 if l1 and l1.next or l2 and l2.next:
                     cur.next = ListNode(0)
             cur = cur.next
