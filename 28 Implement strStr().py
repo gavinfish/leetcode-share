@@ -28,7 +28,7 @@ class Solution(object):
                 try:
                     index = needle.rindex(haystack[i + needleLength])
                 except Exception:
-                    i += needleLength
+                    i += needleLength + 1
                 i += needleLength-index
         return -1
 
