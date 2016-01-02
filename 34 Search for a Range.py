@@ -24,26 +24,32 @@ class Solution(object):
         end = length
         while start < end:
             mid = (start + end) // 2
+            if nums[mid] == target and (mid == 0 or nums[mid - 1] != target):
+                result.append(mid)
+                break
             if nums[mid] < target:
                 start = mid + 1
             else:
                 end = mid
-        if start < length and nums[start] == target:
-            result.append(start)
-        else:
+        if not result:
             return [-1, -1]
-        
+
         end = length
         while start < end:
             mid = (start + end) // 2
+            if nums[mid] == target and (mid == length - 1 or nums[mid + 1] != target):
+                result.append(mid)
+                break
             if nums[mid] <= target:
                 start = mid + 1
             else:
                 end = mid
-        result.append(start - 1)
 
         return result
 
 
 if __name__ == "__main__":
     assert Solution().searchRange([5, 7, 7, 8, 8, 10], 8) == [3, 4]
+    assert Solution().searchRange([5, 7, 7, 8, 8, 10], 5) == [0, 0]
+    assert Solution().searchRange([5, 7, 7, 8, 8, 10], 7) == [1, 2]
+    assert Solution().searchRange([5, 7, 7, 8, 8, 10], 10) == [5, 5]
