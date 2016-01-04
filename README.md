@@ -1,6 +1,6 @@
 # LeetCode-Python
 
-![Language](https://img.shields.io/badge/python-3.5-blue.svg)
+[![Language](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org)
 
 I created this repository to sharpen my Python skills by solving LeetCode problems.
 
