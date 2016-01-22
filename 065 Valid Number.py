@@ -19,7 +19,7 @@ class Solution(object):
         s = s.strip()
         length = len(s)
         index = 0
-        # Ignore symbol
+        # Deal with symbol
         if index < length and (s[index] == '+' or s[index] == '-'):
             index += 1
         is_normal = False
