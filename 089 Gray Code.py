@@ -23,9 +23,7 @@ class Solution(object):
         :type n: int
         :rtype: List[int]
         """
-        result = []
-        for i in range(pow(2, n)):
-            result.append((i >> 1) ^ i)
+        result = [(i >> 1) ^ i for i in range(pow(2, n))]
         return result
 
 
