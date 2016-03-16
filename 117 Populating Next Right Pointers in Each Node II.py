@@ -36,15 +36,16 @@ class Solution(object):
         :type root: TreeLinkNode
         :rtype: nothing
         """
-        prekid = kid = TreeLinkNode(0)
+        dummy = TreeLinkNode(-1)
+        node = dummy
         while root:
             while root:
-                kid.next = root.left
-                kid = kid.next or kid
-                kid.next = root.right
-                kid = kid.next or kid
+                node.next = root.left
+                node = node.next or node
+                node.next = root.right
+                node = node.next or node
                 root = root.next
-            root, kid = prekid.next, prekid
+            root, node = dummy.next, dummy
 
 
 if __name__ == "__main__":
