@@ -38,5 +38,5 @@ class Solution(object):
         s = s * 10 + root.val
         return sum([self._sumNumbers(r, s) for r in (root.left, root.right)]) or s
 
-    if __name__ == "__main__":
-        None
+if __name__ == "__main__":
+    None
