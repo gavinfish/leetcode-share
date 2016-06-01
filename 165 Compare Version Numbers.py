@@ -33,4 +33,4 @@ class Solution(object):
 if __name__ == "__main__":
     assert Solution().compareVersion("0.1", "1.1") == -1
     assert Solution().compareVersion("01.2", "1.1") == 1
-    assert Solution().compareVersion("2.3", "2.3") == 3
+    assert Solution().compareVersion("2.3", "2.3") == 0
