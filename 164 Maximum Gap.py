@@ -30,7 +30,6 @@ class Solution(object):
         if n < 2:
             return 0
         nums = radix_sort(nums)
-        print(nums)
         max_gap = 0
         for i in range(1, n):
             max_gap = max(max_gap, nums[i] - nums[i - 1])
