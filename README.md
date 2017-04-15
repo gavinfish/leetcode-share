@@ -1,8 +1,8 @@
-# LeetCode-Python
+# leetcode-share
 
 [![Language](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org)
 
-I created this repository to sharpen my Python skills by solving LeetCode problems.
+This repository shares my leetcode problems solving experience. The first edition is written in Python3, and now I am working on resolving them with Java8. There are articles describing the solution. For further information, please see the Articles part.
 
 ## Problems
 
