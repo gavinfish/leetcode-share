@@ -55,3 +55,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IntelliJ Idea
+out/
+*.iml
