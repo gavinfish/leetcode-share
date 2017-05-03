@@ -846,7 +846,7 @@
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory)| [Python](./python/379%20Design%20Phone%20Directory.py) [Java]() |Medium||
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o(1))| [Python](./python/380%20Insert%20Delete%20GetRandom%20O(1).py) [Java]() |Medium||
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o(1)---duplicates-allowed)| [Python](./python/381%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.py) [Java]() |Hard||
-|432|[All O`one Data Structure](https://leetcode.com/problems/all-o`one-data-structure)| [Python](./python/432%20All%20O`one%20Data%20Structure.py) [Java]() |Hard||
+|432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure)| [Python](./python/432%20All%20O`one%20Data%20Structure.py) [Java]() |Hard||
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache)| [Python](./python/460%20LFU%20Cache.py) [Java]() |Hard||
 
 ## Topological Sort
