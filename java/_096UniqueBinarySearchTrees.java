@@ -28,7 +28,7 @@ public class _096UniqueBinarySearchTrees {
 
     public static void main(String[] args) {
         _096UniqueBinarySearchTrees uniqueBinarySearchTrees = new _096UniqueBinarySearchTrees();
-        System.out.println(uniqueBinarySearchTrees.numTrees(6));
         assert uniqueBinarySearchTrees.numTrees(3) == 5;
+        assert uniqueBinarySearchTrees.numTrees(6) == 132;
     }
 }
