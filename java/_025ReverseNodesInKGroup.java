@@ -16,7 +16,7 @@
  * <p>
  * Created by drfish on 16/04/2017.
  */
-public class _25ReverNodesInkGroup {
+public class _025ReverseNodesInKGroup {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || k <= 1)
             return head;
