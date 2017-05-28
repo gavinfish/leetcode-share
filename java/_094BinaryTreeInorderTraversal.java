@@ -37,7 +37,7 @@ public class _094BinaryTreeInorderTraversal {
         List<Integer> result = new ArrayList<>();
         while (root != null || !stack.empty()) {
             while (root != null) {
-                stack.add(root);
+                stack.push(root);
                 root = root.left;
             }
             root = stack.pop();
