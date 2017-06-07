@@ -1,6 +1,7 @@
 # leetcode-share
 
-[![Language](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org)
+[![Language python](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org)
+[![Language java](https://img.shields.io/badge/java-8-orange.svg)](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
 [![License](https://img.shields.io/dub/l/vibe-d.svg)](https://opensource.org/licenses/MIT)
 
 This repository shares my experience in solving leetcode problems. The first edition was written in Python3, and now I am working on resolving them with Java8. There are articles describing the solution. For further information, please see the Articles part.
@@ -23,24 +24,6 @@ There are articles about each problem, describing how I solve that problem. You 
 
 It is a pity that they are only in Chinese.
 
-## MIT License
+## License
 
-Copyright (c) 2017 Drfish
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+[MIT LICENSE](./LICENSE)
